@@ -1,0 +1,25 @@
+\xpginauxfiletrue 
+\selectlanguage *{spanish}
+\contentsline {chapter}{\numberline {1}Introducción}{1}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Organización de la memoria}{1}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Repositorio de información}{2}{section.1.2}%
+\contentsline {chapter}{\numberline {2}Objetivos}{3}{chapter.2}%
+\contentsline {chapter}{\numberline {3}Motivación y antecedentes}{4}{chapter.3}%
+\contentsline {chapter}{\numberline {4}Desarrollo del TFG}{5}{chapter.4}%
+\contentsline {chapter}{\numberline {5}Resultados y discusión}{6}{chapter.5}%
+\contentsline {chapter}{\numberline {6}Conclusiones}{7}{chapter.6}%
+\contentsline {chapter}{\numberline {A}Chuleta de \LaTeX {}}{8}{appendix.A}%
+\contentsline {section}{\numberline {A.1}Texto}{8}{section.A.1}%
+\contentsline {subsection}{\numberline {A.1.1}Listas numeradas y con viñetas}{9}{subsection.A.1.1}%
+\contentsline {subsection}{\numberline {A.1.2}Acrónimos}{10}{subsection.A.1.2}%
+\contentsline {section}{\numberline {A.2}Figuras}{10}{section.A.2}%
+\contentsline {section}{\numberline {A.3}Tablas}{13}{section.A.3}%
+\contentsline {section}{\numberline {A.4}Ecuaciones}{15}{section.A.4}%
+\contentsline {section}{\numberline {A.5}Bibliografía, citas y referencias}{16}{section.A.5}%
+\contentsline {subsection}{\numberline {A.5.1}Lo que toda referencia debe tener}{17}{subsection.A.5.1}%
+\contentsline {section}{\numberline {A.6}Hojas de datos}{17}{section.A.6}%
+\contentsline {section}{\numberline {A.7}Código fuente}{21}{section.A.7}%
+\contentsline {section}{\numberline {A.8}Compilación local}{23}{section.A.8}%
+\contentsline {subsection}{\numberline {A.8.1}Configurar el entorno}{23}{subsection.A.8.1}%
+\contentsline {subsection}{\numberline {A.8.2}Configurar TeXStudio}{24}{subsection.A.8.2}%
+\contentsline {chapter}{Bibliograf\'{\i }a}{26}{appendix*.23}%

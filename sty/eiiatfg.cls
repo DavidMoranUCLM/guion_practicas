@@ -133,6 +133,7 @@
 % ________________ METADATA ______________________________________
 \makeatletter
 \newcommand{\@advisor}{}
+\newcommand{\@businessAdvisor}{}
 \newcommand{\@expediente}{}
 \newcommand{\@gitrepo}{}
 \newcommand{\@address}{}
@@ -148,6 +149,7 @@
 \newcommand{\tutor}[1]{\renewcommand{\@advisor}{#1}}
 \newcommand{\advisor}[1]{\renewcommand{\@advisor}{#1}}
 \newcommand{\tutores}[1]{\renewcommand{\@advisor}{#1}}
+\newcommand{\tutorEmpresa}[1]{\renewcommand{\@businessAdvisor}{#1}}
 \newcommand{\expediente}[1]{\renewcommand{\@expediente}{#1}}
 \newcommand{\gitrepo}[1]{\renewcommand{\@gitrepo}{#1}}
 \newcommand{\address}[1]{\renewcommand{\@address}{#1}}
@@ -306,7 +308,7 @@
         \end{minipage}\hfill
         \begin{minipage}[b]{14cm}
             \hfill\parbox{4.5cm}{%
-            \resizebox{4.5cm}{.35cm}{\Large TRABAJO FIN DE GRADO}\\[1.1ex]
+            \resizebox{4.5cm}{.35cm}{\Large MEMORIA DE PRÁCTICAS}\\[1.1ex]
             \resizebox{4.5cm}{!}{N\textordmasculine~\expandafter\@gobbletwo\number\numexpr\the\year\relax-\tfgcode{\@grado}-\@expediente}}\\[6cm]
             \setlength{\unitlength}{1cm}
             \begin{picture}(13,0)
@@ -336,11 +338,12 @@
     \null \vfill
     \noindent
     \begin{tabbing}
-        \hspace*{1.7cm} \= \\
+        \hspace*{2.75cm} \= \\
         \emph{Título:}  \> \parbox[t]{.7\textwidth}{\@title} \\[1ex]
         \emph{Autor:}   \> \@author \\[1ex]
         \emph{Grado:}   \> \gname{\@grado} \\[1ex]
-        \emph{Tutor\multi@tutor{}:}   \> \parbox[t]{.7\textwidth}{\@advisor}\\[1ex]
+        \emph{Tutor Académico\multi@tutor{}:}   \> \parbox[t]{.7\textwidth}{\@advisor}\\[1ex]
+        \emph{Tutor Empresa\multi@tutor{}:}   \> \parbox[t]{.7\textwidth}{\@businessAdvisor}\\[1ex]
         \ifdefempty{\@email}   {}{\emph{E-mail:}   \> \@email \\[1ex]}
         \ifdefempty{\@phone}   {}{\emph{Teléfono:} \> \@phone \\[1ex]}
         \ifdefempty{\@homepage}{}{\emph{Sitio web:} \> \url{\@homepage} \\[1ex]}
