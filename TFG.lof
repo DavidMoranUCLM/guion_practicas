@@ -6,27 +6,28 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
+\addvspace {10\p@ }
 \setforeignlanguage {spanish}
-\contentsline {figure}{\numberline {A.1}{\ignorespaces Figurita ejemplo}}{10}{figure.caption.11}%
+\contentsline {figure}{\numberline {A.1}{\ignorespaces Figurita ejemplo}}{17}{figure.caption.6}%
 \setforeignlanguage {spanish}
-\contentsline {figure}{\numberline {A.2}{\ignorespaces Figurita ejemplo 2}}{11}{figure.caption.12}%
+\contentsline {figure}{\numberline {A.2}{\ignorespaces Figurita ejemplo 2}}{18}{figure.caption.7}%
 \setforeignlanguage {spanish}
-\contentsline {figure}{\numberline {A.3}{\ignorespaces Figurita ejemplo 3. Extraída de la plantilla de TFG de Fernando Castillo. \copyright 2018 Fernando Castillo. Reproducida con permiso.}}{11}{figure.caption.13}%
+\contentsline {figure}{\numberline {A.3}{\ignorespaces Figurita ejemplo 3. Extraída de la plantilla de TFG de Fernando Castillo. \copyright 2018 Fernando Castillo. Reproducida con permiso.}}{18}{figure.caption.8}%
 \setforeignlanguage {spanish}
-\contentsline {figure}{\numberline {A.4}{\ignorespaces Figura ejemplo que ocupa todo el ancho del texto.}}{12}{figure.caption.14}%
+\contentsline {figure}{\numberline {A.4}{\ignorespaces Figura ejemplo que ocupa todo el ancho del texto.}}{19}{figure.caption.9}%
 \setforeignlanguage {spanish}
-\contentsline {figure}{\numberline {A.5}{\ignorespaces Figura ejemplo de rotación.}}{13}{figure.caption.15}%
+\contentsline {figure}{\numberline {A.5}{\ignorespaces Figura ejemplo de rotación.}}{20}{figure.caption.10}%
 \setforeignlanguage {spanish}
-\contentsline {figure}{\numberline {A.6}{\ignorespaces Matriz de figuras}}{13}{figure.caption.16}%
-\contentsline {subfigure}{\numberline {a}{\ignorespaces Figurita 1\caption@gobble {fig:matriz-a}}}{13}{figure.caption.16}%
-\contentsline {subfigure}{\numberline {b}{\ignorespaces Figurita 2\caption@gobble {fig:matriz-b}}}{13}{figure.caption.16}%
-\contentsline {subfigure}{\numberline {c}{\ignorespaces Figurita 3\caption@gobble {fig:matriz-c}}}{13}{figure.caption.16}%
-\setforeignlanguage {spanish}
-\setforeignlanguage {spanish}
+\contentsline {figure}{\numberline {A.6}{\ignorespaces Matriz de figuras}}{20}{figure.caption.11}%
+\contentsline {subfigure}{\numberline {a}{\ignorespaces Figurita 1\caption@gobble {fig:matriz-a}}}{20}{figure.caption.11}%
+\contentsline {subfigure}{\numberline {b}{\ignorespaces Figurita 2\caption@gobble {fig:matriz-b}}}{20}{figure.caption.11}%
+\contentsline {subfigure}{\numberline {c}{\ignorespaces Figurita 3\caption@gobble {fig:matriz-c}}}{20}{figure.caption.11}%
 \setforeignlanguage {spanish}
 \setforeignlanguage {spanish}
-\contentsline {figure}{\numberline {A.7}{\ignorespaces Figura ejemplo. Tomada de hoja de catálogo de \href {https://datasheets.globalspec.com/ds/17/MaxonPrecisionMotors/F1B48EDA-7358-46E6-964A-97E3BC5D921A}{motores DC con escobillas de grafito de Maxon} \copyright ~2014 Maxon Motors. Reproducida con permiso.}}{20}{figure.caption.20}%
 \setforeignlanguage {spanish}
-\contentsline {figure}{\numberline {A.8}{\ignorespaces Configuración de la compilación en TeXStudio}}{24}{figure.caption.21}%
 \setforeignlanguage {spanish}
-\contentsline {figure}{\numberline {A.9}{\ignorespaces Configuración de la orden \emph {Latexmk} en TeXStudio}}{25}{figure.caption.22}%
+\contentsline {figure}{\numberline {A.7}{\ignorespaces Figura ejemplo. Tomada de hoja de catálogo de \href {https://datasheets.globalspec.com/ds/17/MaxonPrecisionMotors/F1B48EDA-7358-46E6-964A-97E3BC5D921A}{motores DC con escobillas de grafito de Maxon} \copyright ~2014 Maxon Motors. Reproducida con permiso.}}{27}{figure.caption.15}%
+\setforeignlanguage {spanish}
+\contentsline {figure}{\numberline {A.8}{\ignorespaces Configuración de la compilación en TeXStudio}}{31}{figure.caption.16}%
+\setforeignlanguage {spanish}
+\contentsline {figure}{\numberline {A.9}{\ignorespaces Configuración de la orden \emph {Latexmk} en TeXStudio}}{32}{figure.caption.17}%

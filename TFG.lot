@@ -6,6 +6,7 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
+\addvspace {10\p@ }
 \setforeignlanguage {spanish}
 \setforeignlanguage {spanish}
 \setforeignlanguage {spanish}
@@ -13,12 +14,12 @@
 \setforeignlanguage {spanish}
 \setforeignlanguage {spanish}
 \setforeignlanguage {spanish}
-\contentsline {table}{\numberline {A.1}{\ignorespaces Resultados de la simulación}}{14}{table.caption.17}%
+\contentsline {table}{\numberline {A.1}{\ignorespaces Resultados de la simulación}}{21}{table.caption.12}%
 \setforeignlanguage {spanish}
-\contentsline {table}{\numberline {A.2}{\ignorespaces Tabla muy sencilla.}}{14}{table.caption.18}%
+\contentsline {table}{\numberline {A.2}{\ignorespaces Tabla muy sencilla.}}{21}{table.caption.13}%
 \setforeignlanguage {spanish}
-\contentsline {table}{\numberline {A.3}{\ignorespaces Fusionando celdas.}}{14}{table.caption.19}%
-\contentsline {table}{\numberline {A.4}{\ignorespaces Un ejemplo de tabla larga}}{14}{table.A.4}%
+\contentsline {table}{\numberline {A.3}{\ignorespaces Fusionando celdas.}}{21}{table.caption.14}%
+\contentsline {table}{\numberline {A.4}{\ignorespaces Un ejemplo de tabla larga}}{21}{table.A.4}%
 \setforeignlanguage {spanish}
 \setforeignlanguage {spanish}
 \setforeignlanguage {spanish}

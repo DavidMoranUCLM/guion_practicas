@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.17.0 (TeX Live 2023/Debian)  (format=lualatex 2024.9.20)  20 SEP 2024 20:58
+This is LuaHBTeX, Version 1.17.0 (TeX Live 2023/Debian)  (format=lualatex 2024.9.20)  22 SEP 2024 21:14
  system commands enabled.
 **TFG.tex
 (./TFG.tex
@@ -238,12 +238,12 @@ Package polyglossia Info: Setting LuaTeX font renderer to Harfbuzz.
 ) (/usr/share/texlive/texmf-dist/tex/latex/polyglossia/gloss-spanish.ldf
 File: gloss-spanish.ldf polyglossia: module for Spanish
 Module polyglossia Info: Language data for spanish
-(polyglossia)            hyphenation	
+(polyglossia)            synonyms	espanol
 (polyglossia)            loader	loadhyph-es.tex
 (polyglossia)            lefthyphenmin	2
-(polyglossia)            synonyms	espanol
+(polyglossia)            patterns	hyph-es.pat.txt
 (polyglossia)            righthyphenmin	2
-(polyglossia)            patterns	hyph-es.pat.txt on input line 18
+(polyglossia)            hyphenation	 on input line 18
 Module polyglossia Info: Language spanish was not yet loaded; created with id 2 
 on input line 18
 Package polyglossia Info: Option: spanish, variant=spanish.
@@ -256,12 +256,12 @@ Package polyglossia Info: Option: English, variant=american.
 ) (/usr/share/texlive/texmf-dist/tex/latex/polyglossia/gloss-french.ldf
 File: gloss-french.ldf polyglossia: module for French
 Module polyglossia Info: Language data for french
-(polyglossia)            hyphenation	
+(polyglossia)            synonyms	patois,francais
 (polyglossia)            loader	loadhyph-fr.tex
 (polyglossia)            lefthyphenmin	2
-(polyglossia)            synonyms	patois,francais
+(polyglossia)            patterns	hyph-fr.pat.txt
 (polyglossia)            righthyphenmin	2
-(polyglossia)            patterns	hyph-fr.pat.txt on input line 17
+(polyglossia)            hyphenation	 on input line 17
 Module polyglossia Info: Language french was not yet loaded; created with id 3 o
 n input line 17
 Lua-only attribute polyglossia_punct = 4
@@ -269,12 +269,12 @@ Package polyglossia Info: Option: French, variant=french.
 ) (/usr/share/texlive/texmf-dist/tex/latex/polyglossia/gloss-german.ldf
 File: gloss-german.ldf polyglossia: module for German
 Module polyglossia Info: Language data for german
-(polyglossia)            hyphenation	
+(polyglossia)            synonyms	
 (polyglossia)            loader	loadhyph-de-1901.tex
 (polyglossia)            lefthyphenmin	2
-(polyglossia)            synonyms	
+(polyglossia)            patterns	hyph-de-1901.pat.txt
 (polyglossia)            righthyphenmin	2
-(polyglossia)            patterns	hyph-de-1901.pat.txt on input line 16
+(polyglossia)            hyphenation	 on input line 16
 Module polyglossia Info: Language german was not yet loaded; created with id 4 o
 n input line 16
 Package polyglossia Info: Option: German, spelling=new.
@@ -1580,12 +1580,12 @@ Package biblatex Info: ... file 'german.lbx' found.
 (/usr/share/texlive/texmf-dist/tex/latex/biblatex/lbx/german.lbx
 File: german.lbx 2023/03/05 v3.19 biblatex localization (PK/MW)
 Module polyglossia Info: Language data for ngerman
-(polyglossia)            hyphenation	
+(polyglossia)            synonyms	
 (polyglossia)            loader	loadhyph-de-1996.tex
 (polyglossia)            lefthyphenmin	2
-(polyglossia)            synonyms	
+(polyglossia)            patterns	hyph-de-1996.pat.txt
 (polyglossia)            righthyphenmin	2
-(polyglossia)            patterns	hyph-de-1996.pat.txt on input line 580
+(polyglossia)            hyphenation	 on input line 580
 Module polyglossia Info: Language ngerman was not yet loaded; created with id 6 
 on input line 580
 )
@@ -1665,7 +1665,7 @@ Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 * paper: custom
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
-* modes: 
+* modes: twoside 
 * h-part:(L,W,R)=(99.58464pt, 412.56497pt, 85.35826pt)
 * v-part:(T,H,B)=(71.13188pt, 702.78308pt, 71.13188pt)
 * \paperwidth=597.50787pt
@@ -1673,7 +1673,7 @@ Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 * \textwidth=412.56497pt
 * \textheight=702.78308pt
 * \oddsidemargin=27.31465pt
-* \evensidemargin=27.31465pt
+* \evensidemargin=13.08827pt
 * \topmargin=-33.0119pt
 * \headheight=12.0pt
 * \headsep=19.8738pt
@@ -1687,8 +1687,8 @@ Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 * \voffset=0.0pt
 * \mag=1000
 * \@twocolumnfalse
-* \@twosidefalse
-* \@mparswitchfalse
+* \@twosidetrue
+* \@mparswitchtrue
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
@@ -1706,7 +1706,7 @@ Package polyglossia Info: totalhyphenmin:'5'.
 * paper: custom
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
-* modes: 
+* modes: twoside 
 * h-part:(L,W,R)=(56.9055pt, 497.92325pt, 42.67912pt)
 * v-part:(T,H,B)=(42.67912pt, 759.6886pt, 42.67912pt)
 * \paperwidth=597.50787pt
@@ -1714,7 +1714,7 @@ Package polyglossia Info: totalhyphenmin:'5'.
 * \textwidth=497.92325pt
 * \textheight=759.6886pt
 * \oddsidemargin=-15.36449pt
-* \evensidemargin=-15.36449pt
+* \evensidemargin=-29.59087pt
 * \topmargin=-61.46466pt
 * \headheight=12.0pt
 * \headsep=19.8738pt
@@ -1728,8 +1728,8 @@ Package polyglossia Info: totalhyphenmin:'5'.
 * \voffset=0.0pt
 * \mag=1000
 * \@twocolumnfalse
-* \@twosidefalse
-* \@mparswitchfalse
+* \@twosidetrue
+* \@mparswitchtrue
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
@@ -1765,43 +1765,8 @@ Overfull \hbox (66.00963pt too wide) in paragraph at lines 37--37
 []$[]$  
  []
 
+[2
 
-warning  (pdf backend): ignoring duplicate destination with the name 'page.i'
-[1
-
-
-] (./tex/agradecimientos.tex
-<sty/info.png, id=29, 128.48pt x 128.48pt>
-File: sty/info.png Graphic file (type png)
-<use sty/info.png>
-Package luatex.def Info: sty/info.png  used on input line 2.
-(luatex.def)             Requested size: 128.47968pt x 128.47968pt.
-) (./tex/dedicatoria.tex [2
-
-
-
-<./sty/info.png>]
-File: sty/info.png Graphic file (type png)
-<use sty/info.png>
-Package luatex.def Info: sty/info.png  used on input line 2.
-(luatex.def)             Requested size: 128.47968pt x 128.47968pt.
-) (./tex/resumen.tex [3
-
-]
-File: sty/info.png Graphic file (type png)
-<use sty/info.png>
-Package luatex.def Info: sty/info.png  used on input line 3.
-(luatex.def)             Requested size: 128.47968pt x 128.47968pt.
-<sty/warning.png, id=43, 128.48pt x 128.48pt>
-File: sty/warning.png Graphic file (type png)
-<use sty/warning.png>
-Package luatex.def Info: sty/warning.png  used on input line 7.
-(luatex.def)             Requested size: 128.47968pt x 128.47968pt.
-[4
-
-<./sty/warning.png>])
-warning  (pdf backend): ignoring duplicate destination with the name 'page.i'
-[1
 
 ] (./TFG.toc
 LaTeX Info: Redefining \rmfamily on input line 2.
@@ -1817,11 +1782,13 @@ warning  (pdf backend): ignoring duplicate destination with the name 'page.i'
 [1
 
 
+
+
+]
+warning  (pdf backend): ignoring duplicate destination with the name 'page.ii'
+[2
+
 ] (./TFG.lot
-LaTeX Info: Redefining \rmfamily on input line 9.
-LaTeX Info: Redefining \sffamily on input line 9.
-LaTeX Info: Redefining \ttfamily on input line 9.
-Package polyglossia Info: totalhyphenmin:'5'.
 LaTeX Info: Redefining \rmfamily on input line 10.
 LaTeX Info: Redefining \sffamily on input line 10.
 LaTeX Info: Redefining \ttfamily on input line 10.
@@ -1846,17 +1813,17 @@ LaTeX Info: Redefining \rmfamily on input line 15.
 LaTeX Info: Redefining \sffamily on input line 15.
 LaTeX Info: Redefining \ttfamily on input line 15.
 Package polyglossia Info: totalhyphenmin:'5'.
-LaTeX Info: Redefining \rmfamily on input line 17.
-LaTeX Info: Redefining \sffamily on input line 17.
-LaTeX Info: Redefining \ttfamily on input line 17.
+LaTeX Info: Redefining \rmfamily on input line 16.
+LaTeX Info: Redefining \sffamily on input line 16.
+LaTeX Info: Redefining \ttfamily on input line 16.
 Package polyglossia Info: totalhyphenmin:'5'.
-LaTeX Info: Redefining \rmfamily on input line 19.
-LaTeX Info: Redefining \sffamily on input line 19.
-LaTeX Info: Redefining \ttfamily on input line 19.
+LaTeX Info: Redefining \rmfamily on input line 18.
+LaTeX Info: Redefining \sffamily on input line 18.
+LaTeX Info: Redefining \ttfamily on input line 18.
 Package polyglossia Info: totalhyphenmin:'5'.
-LaTeX Info: Redefining \rmfamily on input line 22.
-LaTeX Info: Redefining \sffamily on input line 22.
-LaTeX Info: Redefining \ttfamily on input line 22.
+LaTeX Info: Redefining \rmfamily on input line 20.
+LaTeX Info: Redefining \sffamily on input line 20.
+LaTeX Info: Redefining \ttfamily on input line 20.
 Package polyglossia Info: totalhyphenmin:'5'.
 LaTeX Info: Redefining \rmfamily on input line 23.
 LaTeX Info: Redefining \sffamily on input line 23.
@@ -1866,42 +1833,40 @@ LaTeX Info: Redefining \rmfamily on input line 24.
 LaTeX Info: Redefining \sffamily on input line 24.
 LaTeX Info: Redefining \ttfamily on input line 24.
 Package polyglossia Info: totalhyphenmin:'5'.
+LaTeX Info: Redefining \rmfamily on input line 25.
+LaTeX Info: Redefining \sffamily on input line 25.
+LaTeX Info: Redefining \ttfamily on input line 25.
+Package polyglossia Info: totalhyphenmin:'5'.
 )
 \tf@lot=\write10
 
 \openout10 = TFG.lot
-
-warning  (pdf backend): ignoring duplicate destination with the name 'page.ii'
-[2
+[3] [4
 
 ] (./TFG.lof
-LaTeX Info: Redefining \rmfamily on input line 9.
-LaTeX Info: Redefining \sffamily on input line 9.
-LaTeX Info: Redefining \ttfamily on input line 9.
+LaTeX Info: Redefining \rmfamily on input line 10.
+LaTeX Info: Redefining \sffamily on input line 10.
+LaTeX Info: Redefining \ttfamily on input line 10.
 Package polyglossia Info: totalhyphenmin:'5'.
-LaTeX Info: Redefining \rmfamily on input line 11.
-LaTeX Info: Redefining \sffamily on input line 11.
-LaTeX Info: Redefining \ttfamily on input line 11.
+LaTeX Info: Redefining \rmfamily on input line 12.
+LaTeX Info: Redefining \sffamily on input line 12.
+LaTeX Info: Redefining \ttfamily on input line 12.
 Package polyglossia Info: totalhyphenmin:'5'.
-LaTeX Info: Redefining \rmfamily on input line 13.
-LaTeX Info: Redefining \sffamily on input line 13.
-LaTeX Info: Redefining \ttfamily on input line 13.
+LaTeX Info: Redefining \rmfamily on input line 14.
+LaTeX Info: Redefining \sffamily on input line 14.
+LaTeX Info: Redefining \ttfamily on input line 14.
 Package polyglossia Info: totalhyphenmin:'5'.
-LaTeX Info: Redefining \rmfamily on input line 15.
-LaTeX Info: Redefining \sffamily on input line 15.
-LaTeX Info: Redefining \ttfamily on input line 15.
+LaTeX Info: Redefining \rmfamily on input line 16.
+LaTeX Info: Redefining \sffamily on input line 16.
+LaTeX Info: Redefining \ttfamily on input line 16.
 Package polyglossia Info: totalhyphenmin:'5'.
-LaTeX Info: Redefining \rmfamily on input line 17.
-LaTeX Info: Redefining \sffamily on input line 17.
-LaTeX Info: Redefining \ttfamily on input line 17.
+LaTeX Info: Redefining \rmfamily on input line 18.
+LaTeX Info: Redefining \sffamily on input line 18.
+LaTeX Info: Redefining \ttfamily on input line 18.
 Package polyglossia Info: totalhyphenmin:'5'.
-LaTeX Info: Redefining \rmfamily on input line 19.
-LaTeX Info: Redefining \sffamily on input line 19.
-LaTeX Info: Redefining \ttfamily on input line 19.
-Package polyglossia Info: totalhyphenmin:'5'.
-LaTeX Info: Redefining \rmfamily on input line 24.
-LaTeX Info: Redefining \sffamily on input line 24.
-LaTeX Info: Redefining \ttfamily on input line 24.
+LaTeX Info: Redefining \rmfamily on input line 20.
+LaTeX Info: Redefining \sffamily on input line 20.
+LaTeX Info: Redefining \ttfamily on input line 20.
 Package polyglossia Info: totalhyphenmin:'5'.
 LaTeX Info: Redefining \rmfamily on input line 25.
 LaTeX Info: Redefining \sffamily on input line 25.
@@ -1915,44 +1880,39 @@ LaTeX Info: Redefining \rmfamily on input line 27.
 LaTeX Info: Redefining \sffamily on input line 27.
 LaTeX Info: Redefining \ttfamily on input line 27.
 Package polyglossia Info: totalhyphenmin:'5'.
-LaTeX Info: Redefining \rmfamily on input line 29.
-LaTeX Info: Redefining \sffamily on input line 29.
-LaTeX Info: Redefining \ttfamily on input line 29.
+LaTeX Info: Redefining \rmfamily on input line 28.
+LaTeX Info: Redefining \sffamily on input line 28.
+LaTeX Info: Redefining \ttfamily on input line 28.
 Package polyglossia Info: totalhyphenmin:'5'.
-LaTeX Info: Redefining \rmfamily on input line 31.
-LaTeX Info: Redefining \sffamily on input line 31.
-LaTeX Info: Redefining \ttfamily on input line 31.
+LaTeX Info: Redefining \rmfamily on input line 30.
+LaTeX Info: Redefining \sffamily on input line 30.
+LaTeX Info: Redefining \ttfamily on input line 30.
+Package polyglossia Info: totalhyphenmin:'5'.
+LaTeX Info: Redefining \rmfamily on input line 32.
+LaTeX Info: Redefining \sffamily on input line 32.
+LaTeX Info: Redefining \ttfamily on input line 32.
 Package polyglossia Info: totalhyphenmin:'5'.
 )
 \tf@lof=\write11
 
 \openout11 = TFG.lof
+(./TFG.acr [5] [6
 
-warning  (pdf backend): ignoring duplicate destination with the name 'page.iii'
-[3
+]) [7
 
-] (./tex/simbolos.tex
-File: sty/info.png Graphic file (type png)
-<use sty/info.png>
-Package luatex.def Info: sty/info.png  used on input line 2.
-(luatex.def)             Requested size: 128.47968pt x 128.47968pt.
-) (./TFG.acr
-warning  (pdf backend): ignoring duplicate destination with the name 'page.iv'
-[4
-
-]) [5
-
+] [8
 
 ] (./tex/introduccion.tex
 Capítulo 1.
+<sty/info.png, id=156, 128.48pt x 128.48pt>
 File: sty/info.png Graphic file (type png)
 <use sty/info.png>
 Package luatex.def Info: sty/info.png  used on input line 4.
 (luatex.def)             Requested size: 128.47968pt x 128.47968pt.
 [1
 
-
-]
+<./sty/info.png>]
+<sty/warning.png, id=173, 128.48pt x 128.48pt>
 File: sty/warning.png Graphic file (type png)
 <use sty/warning.png>
 Package luatex.def Info: sty/warning.png  used on input line 28.
@@ -1970,16 +1930,22 @@ LaTeX Font Info:    Font shape `TU/STIXTwoText(0)/m/sl' in size <10.95> not ava
 ilable
 (Font)              Font shape `TU/STIXTwoText(0)/m/it' tried instead on input 
 line 1.
-[2]
+[2<./sty/warning.png>]
 Capítulo 2.
 File: sty/info.png Graphic file (type png)
 <use sty/info.png>
 Package luatex.def Info: sty/info.png  used on input line 4.
 (luatex.def)             Requested size: 128.47968pt x 128.47968pt.
-) (./tex/antecedentes.tex [3
+) (./tex/tareas.tex [3
+
+] [4
 
 ]
 Capítulo 3.
+) (./tex/antecedentes.tex [5] [6
+
+]
+Capítulo 4.
 File: sty/info.png Graphic file (type png)
 <use sty/info.png>
 Package luatex.def Info: sty/info.png  used on input line 4.
@@ -1992,15 +1958,7 @@ File: sty/warning.png Graphic file (type png)
 <use sty/warning.png>
 Package luatex.def Info: sty/warning.png  used on input line 18.
 (luatex.def)             Requested size: 128.47968pt x 128.47968pt.
-) (./tex/desarrollo.tex [4
-
-]
-Capítulo 4.
-File: sty/info.png Graphic file (type png)
-<use sty/info.png>
-Package luatex.def Info: sty/info.png  used on input line 4.
-(luatex.def)             Requested size: 128.47968pt x 128.47968pt.
-) (./tex/resultados.tex [5
+) (./tex/desarrollo.tex [7] [8
 
 ]
 Capítulo 5.
@@ -2008,11 +1966,7 @@ File: sty/info.png Graphic file (type png)
 <use sty/info.png>
 Package luatex.def Info: sty/info.png  used on input line 4.
 (luatex.def)             Requested size: 128.47968pt x 128.47968pt.
-File: sty/warning.png Graphic file (type png)
-<use sty/warning.png>
-Package luatex.def Info: sty/warning.png  used on input line 10.
-(luatex.def)             Requested size: 128.47968pt x 128.47968pt.
-) (./tex/conclusiones.tex [6
+) (./tex/resultados.tex [9] [10
 
 ]
 Capítulo 6.
@@ -2020,7 +1974,19 @@ File: sty/info.png Graphic file (type png)
 <use sty/info.png>
 Package luatex.def Info: sty/info.png  used on input line 4.
 (luatex.def)             Requested size: 128.47968pt x 128.47968pt.
-) [7
+File: sty/warning.png Graphic file (type png)
+<use sty/warning.png>
+Package luatex.def Info: sty/warning.png  used on input line 10.
+(luatex.def)             Requested size: 128.47968pt x 128.47968pt.
+) (./tex/conclusiones.tex [11] [12
+
+]
+Capítulo 7.
+File: sty/info.png Graphic file (type png)
+<use sty/info.png>
+Package luatex.def Info: sty/info.png  used on input line 4.
+(luatex.def)             Requested size: 128.47968pt x 128.47968pt.
+) [13] [14
 
 ] (./tex/latex.tex
 Apéndice A.
@@ -2028,15 +1994,14 @@ File: sty/warning.png Graphic file (type png)
 <use sty/warning.png>
 Package luatex.def Info: sty/warning.png  used on input line 10.
 (luatex.def)             Requested size: 128.47968pt x 128.47968pt.
-(./tex/latex/texto.tex [8
-
+(./tex/latex/texto.tex [15
 
 ]) (./tex/latex/figuras.tex
 LaTeX Font Info:    Font shape `TU/STIXTwoText(0)/m/sl' in size <8> not availab
 le
 (Font)              Font shape `TU/STIXTwoText(0)/m/it' tried instead on input 
 line 1.
-[9]
+[16]
 Package epstopdf Info: Source file: <fig/ejemplo.eps>
 (epstopdf)                    date: 2024-09-18 12:01:19
 (epstopdf)                    size: 19473 bytes
@@ -2047,7 +2012,7 @@ Package epstopdf Info: Source file: <fig/ejemplo.eps>
 o.pdf fig/ejemplo.eps>
 (epstopdf)             \includegraphics on input line 8.
 Package epstopdf Info: Output file is already uptodate.
-<fig/ejemplo-eps-converted-to.pdf, id=249, 418.56375pt x 314.17375pt>
+<fig/ejemplo-eps-converted-to.pdf, id=274, 418.56375pt x 314.17375pt>
 File: fig/ejemplo-eps-converted-to.pdf Graphic file (type pdf)
 <use fig/ejemplo-eps-converted-to.pdf>
 Package luatex.def Info: fig/ejemplo-eps-converted-to.pdf  used on input line 8
@@ -2089,8 +2054,8 @@ File: fig/ejemplo-eps-converted-to.pdf Graphic file (type pdf)
 Package luatex.def Info: fig/ejemplo-eps-converted-to.pdf  used on input line 3
 1.
 (luatex.def)             Requested size: 209.28136pt x 157.08649pt.
-[10<./fig/ejemplo-eps-converted-to.pdf>]
-<fig/ejemplo2.jpg, id=268, 569.7285pt x 235.47975pt>
+[17<./fig/ejemplo-eps-converted-to.pdf>]
+<fig/ejemplo2.jpg, id=293, 569.7285pt x 235.47975pt>
 File: fig/ejemplo2.jpg Graphic file (type jpg)
 <use fig/ejemplo2.jpg>
 Package luatex.def Info: fig/ejemplo2.jpg  used on input line 40.
@@ -2119,7 +2084,7 @@ Overfull \hbox (65.09134pt too wide) in paragraph at lines 57--58
 \TU/STIXTwoText(0)/m/n/10.95 ser un ta-ma-ño re-la-ti-vo a cual-quier me-di-da del do-cu-men-to. Por ejem-plo, []\TU/NotoSansMono(0)/m/n/10.95 width=0.5\textwidth
  []
 
-[11<./fig/ejemplo2.jpg>]
+[18<./fig/ejemplo2.jpg>]
 Package epstopdf Info: Source file: <fig/ejemplo.eps>
 (epstopdf)                    date: 2024-09-18 12:01:19
 (epstopdf)                    size: 19473 bytes
@@ -2186,7 +2151,7 @@ Package luatex.def Info: fig/ejemplo-eps-converted-to.pdf  used on input line 8
 (luatex.def)             Requested size: 227.62204pt x 170.84976pt.
 Package hyperref Info: bookmark level for unknown subfigure defaults to 0 on in
 put line 85.
-[12]) (./tex/latex/tablas.tex [13] [14]) (./tex/latex/ecuaciones.tex [15]) (./t
+[19]) (./tex/latex/tablas.tex [20] [21]) (./tex/latex/ecuaciones.tex [22]) (./t
 ex/latex/citas-referencias.tex
 Overfull \hbox (24.11179pt too wide) in paragraph at lines 10--11
 []\TU/STIXTwoText(0)/m/n/10.95 Se pue-de per-so-na-li-zar el as-pec-to de las ci
@@ -2202,7 +2167,7 @@ en dos va-rian-tes, \TU/NotoSansMono(0)/m/n/10.95 ieee \TU/STIXTwoText(0)/m/n/1
 5 .
  []
 
-[16]) (./tex/latex/hojas-datos.tex
+[23]) (./tex/latex/hojas-datos.tex
 Overfull \hbox (13.91997pt too wide) in paragraph at lines 4--5
 \TU/STIXTwoText(0)/m/n/10.95 en las fi-gu-ras, pero solo se pue-de in-crus-tar 
 una pá-gi-na en cada lla-ma-da a \TU/NotoSansMono(0)/m/n/10.95 includegraphics\TU/STIXTwoText(0)/m/n/10.95 . 
@@ -2216,7 +2181,7 @@ Overfull \hbox (70.56612pt too wide) in paragraph at lines 8--9
 m/n/10.95 . 
  []
 
-<fig/RE30.pdf, id=338, 597.23125pt x 845.1575pt>
+<fig/RE30.pdf, id=365, 597.23125pt x 845.1575pt>
 File: fig/RE30.pdf Graphic file (type pdf)
 <use fig/RE30.pdf>
 Package luatex.def Info: fig/RE30.pdf  used on input line 10.
@@ -2225,7 +2190,7 @@ File: fig/RE30.pdf Graphic file (type pdf)
 <use fig/RE30.pdf>
 Package luatex.def Info: fig/RE30.pdf  used on input line 10.
 (luatex.def)             Requested size: 597.22978pt x 845.15544pt.
-<fig/RE30.pdf, id=341, page=1, 597.23125pt x 845.1575pt>
+<fig/RE30.pdf, id=368, page=1, 597.23125pt x 845.1575pt>
 File: fig/RE30.pdf Graphic file (type pdf)
 <use fig/RE30.pdf, page 1>
 Package luatex.def Info: fig/RE30.pdf , page1 used on input line 10.
@@ -2234,7 +2199,7 @@ File: fig/RE30.pdf Graphic file (type pdf)
 <use fig/RE30.pdf, page 1>
 Package luatex.def Info: fig/RE30.pdf , page1 used on input line 10.
 (luatex.def)             Requested size: 477.78564pt x 676.12692pt.
-[17] [18]
+[24] [25]
 File: fig/RE30.pdf Graphic file (type pdf)
 <use fig/RE30.pdf, page 1>
 Package luatex.def Info: fig/RE30.pdf , page1 used on input line 10.
@@ -2247,7 +2212,7 @@ File: fig/RE30.pdf Graphic file (type pdf)
 <use fig/RE30.pdf, page 1>
 Package luatex.def Info: fig/RE30.pdf , page1 used on input line 10.
 (luatex.def)             Requested size: 477.78564pt x 676.12692pt.
-[19
+[26
 
 <./fig/RE30.pdf>]
 File: fig/RE30.pdf Graphic file (type pdf)
@@ -2268,7 +2233,10 @@ s di-rec-ta-men-te del pro-yec-to con la or-den \TU/NotoSansMono(0)/m/n/10.95 ls
 tinputlisting\TU/STIXTwoText(0)/m/n/10.95 . 
  []
 
-[20]
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[27]
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
 nput line 9.
 (./tex/latex/ejercicio20.m)
@@ -2276,56 +2244,58 @@ File: sty/info.png Graphic file (type png)
 <use sty/info.png>
 Package luatex.def Info: sty/info.png  used on input line 34.
 (luatex.def)             Requested size: 128.47968pt x 128.47968pt.
-[21]
+[28]
 \openout4 = TFG.pyg
  (./_minted-TFG/default.pygstyle)
 (./_minted-TFG/420047983027013C357CFA647AAB1931BEF031A8F13254D225AB04113138C8F3
 .pygtex)
 (./_minted-TFG/420047983027013C357CFA647AAB1931098AC782B4F239D76E706F33FCDD89DC
-.pygtex) [22]) (./tex/latex/local.tex [23]
-<fig/cfg-texstudio-compilar.png, id=474, 632.3625pt x 402.00188pt>
+.pygtex) [29]) (./tex/latex/local.tex [30]
+<fig/cfg-texstudio-compilar.png, id=500, 632.3625pt x 402.00188pt>
 File: fig/cfg-texstudio-compilar.png Graphic file (type png)
 <use fig/cfg-texstudio-compilar.png>
 Package luatex.def Info: fig/cfg-texstudio-compilar.png  used on input line 29.
 
 (luatex.def)             Requested size: 288.79422pt x 183.59201pt.
-<fig/cfg-texstudio-ordenes.png, id=476, 571.38469pt x 427.5975pt>
+<fig/cfg-texstudio-ordenes.png, id=502, 571.38469pt x 427.5975pt>
 File: fig/cfg-texstudio-ordenes.png Graphic file (type png)
 <use fig/cfg-texstudio-ordenes.png>
 Package luatex.def Info: fig/cfg-texstudio-ordenes.png  used on input line 38.
 (luatex.def)             Requested size: 288.79422pt x 216.12097pt.
-<fig/texstudio-compilar.png, id=477, 15.05624pt x 15.05624pt>
+<fig/texstudio-compilar.png, id=503, 15.05624pt x 15.05624pt>
 File: fig/texstudio-compilar.png Graphic file (type png)
 <use fig/texstudio-compilar.png>
 Package luatex.def Info: fig/texstudio-compilar.png  used on input line 43.
 (luatex.def)             Requested size: 15.0562pt x 15.0562pt.
-<fig/texstudio-preview.png, id=478, 15.05624pt x 15.05624pt>
+<fig/texstudio-preview.png, id=504, 15.05624pt x 15.05624pt>
 File: fig/texstudio-preview.png Graphic file (type png)
 <use fig/texstudio-preview.png>
 Package luatex.def Info: fig/texstudio-preview.png  used on input line 43.
 (luatex.def)             Requested size: 15.0562pt x 15.0562pt.
-)) [24<./fig/cfg-texstudio-compilar.png><./fig/texstudio-compilar.png><./fig/tex
-studio-preview.png>] [25<./fig/cfg-texstudio-ordenes.png>]
-Overfull \hbox (12.13187pt too wide) in paragraph at lines 79--79
+)) [31<./fig/cfg-texstudio-compilar.png><./fig/texstudio-compilar.png><./fig/tex
+studio-preview.png>] [32<./fig/cfg-texstudio-ordenes.png>]
+Overfull \hbox (12.13187pt too wide) in paragraph at lines 80--80
 \TU/STIXTwoText(0)/m/n/10.95 vior», \TU/STIXTwoText(0)/m/it/10.95 Com-pu-ters 
 & Mathe-ma-tics with Ap-pli-ca-tions\TU/STIXTwoText(0)/m/n/10.95 , vol. 59, n$[
 ][]$ 5, págs. 1656[]1666,
  []
 
 
-Overfull \hbox (49.92967pt too wide) in paragraph at lines 79--79
+Overfull \hbox (49.92967pt too wide) in paragraph at lines 80--80
 \TU/NotoSansMono(0)/m/n/10.95 elsevier . com / _ _ data / promis _ misc / 525444
 systematicreviewsguide .
  []
 
 
-Overfull \hbox (25.2936pt too wide) in paragraph at lines 79--79
+Overfull \hbox (25.2936pt too wide) in paragraph at lines 80--80
 \TU/STIXTwoText(0)/m/it/10.95 ce\TU/STIXTwoText(0)/m/n/10.95 , ago. de 2014. di-
 rec-ción: [][]$\TU/NotoSansMono(0)/m/n/10.95 https : / / research . idi . ntnu . no / aimasters /
  []
 
-[26
+[33
 
+
+] [34
 
 ] (./TFG.aux)
  ***********
@@ -2339,14 +2309,14 @@ Package logreq Info: Writing requests to 'TFG.run.xml'.
 )
 
 Here is how much of LuaTeX's memory you used:
- 51208 strings out of 476553
- 244237,2373549 words of node,token memory allocated
- 877 words of node memory still in use:
-   6 hlist, 2 vlist, 2 rule, 5 glue, 5 kern, 1 penalty, 1 glyph, 38 attribute, 8
-3 glue_spec, 38 attribute_list, 6 write, 11 pdf_action nodes
-   avail lists: 1:3,2:3859,3:386,4:4338,5:4453,6:101,7:8699,8:91,9:12870,10:43,1
+ 51163 strings out of 476553
+ 244243,2373549 words of node,token memory allocated
+ 866 words of node memory still in use:
+   6 hlist, 2 vlist, 2 rule, 5 glue, 5 kern, 1 penalty, 1 glyph, 36 attribute, 8
+3 glue_spec, 36 attribute_list, 5 write, 11 pdf_action nodes
+   avail lists: 1:2,2:3867,3:387,4:4338,5:4453,6:101,7:8697,8:91,9:12870,10:43,1
 1:829
- 71359 multiletter control sequences out of 65536+600000
+ 71349 multiletter control sequences out of 65536+600000
  123 fonts using 45337527 bytes
  120i,18n,150p,2336b,2475s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/truetype/google/noto/NotoSansMono-Bold.ttf>
@@ -2363,10 +2333,10 @@ amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
 0.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></u
 sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb>
-Output written on TFG.pdf (37 pages, 539998 bytes).
+Output written on TFG.pdf (44 pages, 537490 bytes).
 
-PDF statistics: 665 PDF objects out of 1000 (max. 8388607)
- 556 compressed objects within 6 object streams
- 165 named destinations out of 1000 (max. 131072)
- 200 words of extra memory for PDF output out of 10000 (max. 100000000)
+PDF statistics: 702 PDF objects out of 1000 (max. 8388607)
+ 586 compressed objects within 6 object streams
+ 172 named destinations out of 1000 (max. 131072)
+ 216 words of extra memory for PDF output out of 10000 (max. 100000000)
 

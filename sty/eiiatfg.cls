@@ -134,6 +134,11 @@
 \makeatletter
 \newcommand{\@advisor}{}
 \newcommand{\@businessAdvisor}{}
+\newcommand{\@businessAdvisorCharge}{}
+\newcommand{\@business}{}
+\newcommand{\@businessAddress}{}
+\newcommand{\@internshipHours}{}
+\newcommand{\@internshipMonths}{}
 \newcommand{\@expediente}{}
 \newcommand{\@gitrepo}{}
 \newcommand{\@address}{}
@@ -150,6 +155,11 @@
 \newcommand{\advisor}[1]{\renewcommand{\@advisor}{#1}}
 \newcommand{\tutores}[1]{\renewcommand{\@advisor}{#1}}
 \newcommand{\tutorEmpresa}[1]{\renewcommand{\@businessAdvisor}{#1}}
+\newcommand{\cargoTutorEmpresa}[1]{\renewcommand{\@businessAdvisorCharge}{#1}}
+\newcommand{\empresaPractica}[1]{\renewcommand{\@business}{#1}}
+\newcommand{\lugarPractica}[1]{\renewcommand{\@businessAddress}{#1}}
+\newcommand{\horasPractica}[1]{\renewcommand{\@internshipHours}{#1}}
+\newcommand{\mesesPractica}[1]{\renewcommand{\@internshipMonths}{#1}}
 \newcommand{\expediente}[1]{\renewcommand{\@expediente}{#1}}
 \newcommand{\gitrepo}[1]{\renewcommand{\@gitrepo}{#1}}
 \newcommand{\address}[1]{\renewcommand{\@address}{#1}}
@@ -338,15 +348,19 @@
     \null \vfill
     \noindent
     \begin{tabbing}
-        \hspace*{2.75cm} \= \\
+        \hspace*{3.5cm} \= \\
         \emph{Título:}  \> \parbox[t]{.7\textwidth}{\@title} \\[1ex]
         \emph{Autor:}   \> \@author \\[1ex]
         \emph{Grado:}   \> \gname{\@grado} \\[1ex]
-        \emph{Tutor Académico\multi@tutor{}:}   \> \parbox[t]{.7\textwidth}{\@advisor}\\[1ex]
-        \emph{Tutor Empresa\multi@tutor{}:}   \> \parbox[t]{.7\textwidth}{\@businessAdvisor}\\[1ex]
         \ifdefempty{\@email}   {}{\emph{E-mail:}   \> \@email \\[1ex]}
         \ifdefempty{\@phone}   {}{\emph{Teléfono:} \> \@phone \\[1ex]}
         \ifdefempty{\@homepage}{}{\emph{Sitio web:} \> \url{\@homepage} \\[1ex]}
+        
+        \emph{Tutor Académico\multi@tutor{}:}   \> \parbox[t]{.7\textwidth}{\@advisor}\\[1ex]
+        \emph{Tutor Empresa:}   \> \@businessAdvisor \\[1ex]
+        \emph{Empresa:} \> \@business		\\[1ex]
+        \emph{Direccion Empresa:} \> \@businessAddress \\[1ex]
+        \emph{Duración Prácticas:} \> \@internshipHours \ horas - \@internshipMonths \ meses\\[1ex]
         \ifdefempty{\@address} {}{\emph{Dirección:} \> \parbox[t]{.7\textwidth}{%
             \@address \\ 
             \ifdefempty{\@zipcode} {}{\@zipcode~}\@city\ -- \@country  
@@ -370,18 +384,18 @@
 \pagestyle{empty}\thispagestyle{empty}
 }{\pagestyle{headings}}
 
-\newenvironment{dedicatoria}{
-\chapter*{}\pagestyle{empty}\thispagestyle{empty}\begin{flushright}\it
-}{\end{flushright}\pagestyle{headings}}
 
-\newenvironment{resumen}{
-\chapter*{Resumen}\pagestyle{empty}\thispagestyle{empty}
-}{\pagestyle{headings}}
-
-\newenvironment{abstract}{
-\chapter*{Abstract}\pagestyle{empty}\thispagestyle{empty}
-}{\pagestyle{headings}}
-
+%\newenvironment{dedicatoria}{
+%\chapter*{}\pagestyle{empty}\thispagestyle{empty}\begin{flushright}\it
+%}{\end{flushright}\pagestyle{headings}}
+%
+%\newenvironment{resumen}{
+%\chapter*{Resumen}\pagestyle{empty}\thispagestyle{empty}
+%}{\pagestyle{headings}}
+%
+%\newenvironment{abstract}{
+%\chapter*{Abstract}\pagestyle{empty}\thispagestyle{empty}
+%}{\pagestyle{headings}}
 
 % ________________________ INDICES ________________________________
 \makeatletter
