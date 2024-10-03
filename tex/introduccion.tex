@@ -1,37 +1,54 @@
 \chapter{Introducción} 
 \label{ch:introduccion}
 
-\avisoLocalizacionArchivo 
+\makeatletter
+En este documento se reportará el desarrollo de las prácticas en empresa llevadas a cabo bajo la supervisión de la UCLM
+en la empresa \@business con el objetivo de convalidar la asignatura de \emph{Prácticas de Empresa Externas}.
 
-En este capítulo debes introducir el problema sin divagar, sin copiar de otros documentos y sin utilizar un lenguaje excesivamente técnico.  Tampoco utilices un lenguaje informal.  Este capítulo debería convencer al cliente de que el proyecto merece la pena.  Es decir, es un problema real y no está resuelto completamente.
-
-Debe tenerse siempre presente que el cliente es el que paga.  En el TFG el que paga es el tribunal, en forma de calificación.  Así que a quien hay que convencer es a los miembros del tribunal.  El tribunal no lo conocerás a priori.  Por eso la memoria debe estar escrita para que la entienda alguien que no es especialista en el campo de aplicación.  Pero eso no implica que se toleren la falta de rigor o la falta de argumentación técnica.  Solo implica que los argumentos específicos hay que explicarlos o citar la fuente que los explica.
-
-Redacta la introducción al final del TFG, cuando tengas elaborado el capítulo de antecedentes, los resultados y su discusión.  De esta forma podrás evitar repetir argumentos que ya están en esos capítulos.  La introducción debe introducir también el contexto en el que se desarrolla el TFG.  Divide el documento en secciones y subsecciones para organizar el contenido del capítulo.  Utiliza preferentemente frases cortas.
+Con estas prácticas se pretende afianzar y expandir las competencias impartidas por la universidad(Vease \ref{sec:contextualizacion}).
 
 
-\section{Organización de la memoria} 
-\label{sec:organizacion-memoria}
 
-La organización de este documento responde a un documento científico-técnico. Se descompone en los siguientes capítulos.
+\section{Motivaciones}
+\label{sec:motivaciones}
 
-\begin{description}
-    \item[\autoref{ch:objetivos}] Enumera y justifica los objetivos del proyecto y establece los límites intrínsecos y extrínsecos de ejecución del TFG.
-    \item[\autoref{ch:antecedentes}] Analiza los antecedentes y estado del arte en relación al tema del proyecto.
-    \item[\autoref{ch:desarrollo}] Describe todo el proceso de desarrollo del TFG.  Esto incluye la metodología de trabajo empleada y las diferentes etapas o iteraciones que se han llevado a cabo.  No dudes en descomponer el capítulo en varios si aglutina demasiado material.
-    \item[\autoref{ch:resultados}] Describe en detalle los resultados obtenidos y las pruebas realizadas. Discute los resultados en relación a los objetivos del proyecto.
-    \item[\autoref{ch:conclusiones}] Recopila las principales conclusiones del proyecto y comenta las líneas de trabajo futuro, en caso de que se contemplen.
-    \item[\deschyperlink{ch:anexos}{Anexos}] Complementan la información del cuerpo del documento con información técnica útil para reproducir los resultados, pero innecesaria para comprender en su totalidad el TFG realizado.
-    \item[\deschyperlink{ch:bibliografia}{Bibliografía}] Recopila las referencias bibliográficas utilizadas en este documento.
-\end{description}
+Enmarcando las prácticas en las preferencias y necesidades del alumno, se pretende enfocar esta actividad en la expansión de las competencias relacionadas con la programación y desarrollo de sistemas embebidos.
 
-\warning{La normativa de la EIIA no te obliga a usar una estructura fija.  Adáptala como quieras a tu TFG.  Puedes reordenar capítulos, mezclarlos, dividirlos, etc.  Por ejemplo, es frecuente poner unos antecedentes antes de los objetivos, que definen el contexto del TFG, y desarrollar el estado de la cuestión después de los objetivos.}
+El material impartido sobre estas competencias en la UCLM es limitado dado su especialidad en fabricación y materiales y, aunque se tratan en algunas de las asignaturas \cite{deCastilla-LaMancha2024Sep}, su desarrollo se considera insuficiente para poder crear una carrera laboral relacionada con estas ramas.
 
-\warning{Al finalizar el resto de los capítulos revisa esta descripción del documento para que coincida con lo que realmente contiene la memoria.  Por ejemplo, es frecuente fusionar varios capítulos en uno cuando son muy pequeños.  También es frecuente lo contrario, dividir un capítulo en varios cuando es muy extenso.}
+Con estas prácticas se pretende corregir esta falta de formación para poder enfocar una carrera laboral para estos ámbitos.
 
-\section{Repositorio de información}
-\label{sec:repositorio}
+\section{Zennio}
+\label{sec:zennio}
 
-\warning{Es muy útil tanto para la ejecución como para la evaluación disponer de un repositorio para almacenar las sucesivas versiones del documento y de todo el material generado durante el proyecto.  La UCLM incorpora \href{https://github.com}{GitHub} como servicio institucional. Si no utilizas un repositorio quita esta sección.}
+La empresa elegida para la realización de las prácticas es \@business, una empresa especializada en el desarrollo, certificación y comercialización de productos domóticos KNX fundada en 2005 en la localidad Toledo.
 
-Todo el material generado durante la ejecución de este proyecto está disponible en el repositorio \thegitrepo{}.  El material incluye el código \LaTeX{} del presente documento, el código fuente de los programas realizados o modificados, y todos los datos generados en la evaluación de resultados.
+Actualmente cuenta con más de 250 trabajadores y opera en 117 paises, teniendo su oficina y fábrica principal en Toledo, además de otras delegaciones repartidas por Europa y Oriente Medio.
+
+En cuanto a la organización de la compañía, tenemos que está dirigida por un CEO (Juan Carlos Ciudad) y separada en 6 departamentos:
+
+\alert{Corregir tabulación}
+
+\begin{itemize}
+    \item \emph{CLIPS:} Encargado de marketing y soporte al cliente.
+    \item \emph{Desarrollo de Producto:} Encargado del hardware, la mecánica y la industralización.
+    \item \emph{Ventas Corporativas:} Encargado de logística de ventas, oficina técnica y de mercados.
+    \item \emph{Cadena de Suministro:} Encargado de compras, producción e ingeniería de producción.
+    \item \emph{RRHH:} Encargado de relaciones laborales, organización y selección.
+    \item \emph{Administración Financiera:} Encargado de finanzas, calidad de producto y IT.
+\end{itemize}
+
+
+\section{Contextualización de las prácticas en Zennio}
+\label{sec:contextualizacion}
+
+Las prácticas en Zennio han sido el resultado de varias condiciones globables y locales, pero se pueden simplifizar a dos sucesos principales.
+
+En primer lugar tenemos el crecimiento de la compañía a finales de la década pasada, que fue detenido por la pandemia sucedida en 2020, seguido por una rápida expansión cuando sus efectos se redujeron.
+En segundo lugar tenemos la falta de formación en programación y sistemas embebidos en la región de su sede.
+
+Por tanto, durante la salida de la pandemia, Zennio tuvo que enfrentar una falta de personal que no era capaz de suplir facilmente debido a una falta de oferta. Como resultado de esta situción se creo el ZENNIO Talent Program, un programa desarrollado por la empresa enfocado a captar y formar personal por su cuenta.
+
+La promoción del programa que nos concierce en este documento se centra en la formación en programación y sistemas embebidos, aunque también se traten más superficialmente otros departamentos para posibilitar el movimiento horizontal dentro de la empresa.
+
+\makeatother
