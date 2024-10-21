@@ -91,6 +91,7 @@
 \usepackage{cleveref}
 \usepackage{ifthen}
 \usepackage{currfile}
+\usepackage{easyReview}
 
 \usepackage[
   paperwidth=210mm,
@@ -408,9 +409,9 @@
     \pagenumbering{roman}
     \cleardoublepage\setcounter{page}{1}
     \tableofcontents			%Indice General
-    \listoftables				%Indice de tablas
+    %\listoftables				%Indice de tablas
     \listoffigures				%Indice de figuras
-    \@listofsymbols              %Índice de símbolos
+    %\@listofsymbols              %Índice de símbolos
     \renewcommand{\acronymname}{Lista de acrónimos}
     \printglossary[type=\acronymtype] % Lista de acrónimos
     \cleardoublepage\setcounter{page}{1}

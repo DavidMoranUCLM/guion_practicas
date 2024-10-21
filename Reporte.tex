@@ -1,5 +1,5 @@
 \documentclass{sty/eiiatfg}
-
+\setreviewson
 %\setmonofont{Noto Sans Mono}
 
 \usepackage[nomain,acronym]{glossaries}
@@ -12,6 +12,7 @@
 % Algunos paquetes especialmente útiles ya están incluídos en el estilo
 % del TFG (consulta sty/eiiatfg.cls para más detalles).
 
+\raggedbottom
 \input{datos-tfg.tex}
 \input{tex/acronimos.tex}
 
@@ -21,8 +22,6 @@
 % gestor de bibliografía. Solo se incluyen las referencias que son citadas
 % en el texto.
 \addbibresource{bib/main.bib}
-\addbibresource{bib/how.bib}
-\addbibresource{bib/ejemplos.bib}
 
 \begin{document}
 
@@ -61,23 +60,24 @@
 \input{tex/introduccion.tex}
 \input{tex/objetivos.tex}
 \input{tex/tareas.tex}
-\input{tex/antecedentes.tex}
-\input{tex/desarrollo.tex}
-\input{tex/resultados.tex}
-\input{tex/conclusiones.tex}
+\input{tex/tutor_empresa.tex}
+%\input{tex/antecedentes.tex}
+%\input{tex/desarrollo.tex}
+%\input{tex/resultados.tex}
+%\input{tex/conclusiones.tex}
 
 % Los anexos pueden ir en la misma carpeta que el cuerpo del documento 
 % porque eso facilita la migración de partes de un capítulo a un anexo.
-\appendix\cleardoublepage
-\hypertarget{ch:anexos}{%
-    \input{tex/latex.tex}}
+%\appendix\cleardoublepage
+%\hypertarget{ch:anexos}{%
+%    \input{tex/latex.tex}}
 
 % La bibliografía no suele ir numerada porque se pone después de los anexos.
 % No se debe poner antes de los anexos porque si se cita una referencia en
 % un anexo sería una backward reference, que deben evitarse a toda costa
-\cleardoublepage
-\hypertarget{ch:bibliografia}{%
-    \printbibliography[heading=bibintoc]}
-\cleardoublepage
+%\cleardoublepage
+%\hypertarget{ch:bibliografia}{%
+%    \printbibliography[heading=bibintoc]}
+%\cleardoublepage
 
 \end{document}
